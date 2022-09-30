@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('wave.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 30px;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 30px 0 30px 0;
+    font-weight: bold;
+}
+
+.form {
+    background-color: #fef4f5;
+    width: 550px;
+    margin: auto;
+    padding: 50px 30px 50px 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgb(219, 216, 216);
+}
+
+label {
+    display: block;
+    padding: 10px 0 10px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    height: 40px;
+    background: #e0dada;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.ckb {
+    display: inline-block;
+    margin: 0;
+}
+a {
+    color: #e0dada;
+    float: right;
+    margin-top: 10px;
+
+
+}
+
+button {
+    padding: 15px 30px 15px 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #0099FF;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
